@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pcb_detection/imagepicking.dart';
 import 'package:pcb_detection/model/dropped_file.dart';
+import 'package:pcb_detection/roboflow_service.dart';
 import 'package:pcb_detection/widgets/dropped_image_widget.dart';
 import 'package:pcb_detection/widgets/dropzone_widget.dart';
 
@@ -34,6 +36,38 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   DroppedFile? file;
+  final String modelId = "printed-circuit-board/3";
+  final String apiKey = "IYFfEBPmMELFaVl0bIMn";
+  RoboflowService? roboflowService;
+  String? prediction;
+
+  @override
+  void initState() {
+    super.initState();
+    roboflowService = RoboflowService(modelId, apiKey);
+  }
+
+  Future<void> generateResult(DroppedFile file) async {
+    // try {
+    // final imageBytes = await roboflowService!.downloadImage(file.url);
+    // if (imageBytes != null) {
+    //   print("Image downoaded successfully");
+    // }
+    final response = await roboflowService!.infer(file);
+    print(response);
+    // if (response != null) {
+    //   setState(() {
+    //     prediction =
+    //         response["class"]; // Assuming "class" key holds prediction
+    //   });
+    //   print("Prediction: $prediction");
+    // }
+    //   }
+    // } on Exception catch (e) {
+    //   print("Error: $e"); // Print a more informative error message
+    // }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,20 +81,31 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // DroppedFileWidget(file: file),
-            // const SizedBox(height: 20,),
-            SizedBox(
-              height: 300,
-              width: 500,
-              child: DropzoneWidget(
-                onDroppedFile: (file) => setState(() => this.file = file),
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SizedBox(
+                  height: 300,
+                  width: 500,
+                  child: DropzoneWidget(
+                    onDroppedFile: (file) => setState(() => this.file = file),
+                  ),
+                ),
+                const SizedBox(
+                  width: 20,
+                ),
+                SizedBox(
+                  height: 300,
+                  width: 500,
+                  child: DroppedFileWidget(file: file),
+                ),
+              ],
             ),
             const SizedBox(
-              height: 10,
+              height: 20,
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () => generateResult(file!),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
               ),
@@ -69,8 +114,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: TextStyle(color: Colors.white),
               ),
             ),
-            Container(
+            SizedBox(
               height: 40,
+              width: 800,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -79,11 +125,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text("Filter Accuracy: "),
                       SizedBox(
                         height: 40,
-                        width: 100,
+                        width: 60,
                         child: TextField(
+                          keyboardType: TextInputType.number,
+                          textAlignVertical: TextAlignVertical.top,
                           decoration: InputDecoration(
                             border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(11),
+                              borderRadius: BorderRadius.circular(5),
                               borderSide: const BorderSide(
                                 color: Colors.blue,
                               ),
@@ -91,6 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                       ),
+                      const Text(" %"),
                     ],
                   ),
                   const Row(

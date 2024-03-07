@@ -40,6 +40,29 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA_gcV_6gNN5ZrlljDwrk7PxRT7z6-U1gA",
+    authDomain: "pcb-component-detection-89a52.firebaseapp.com",
+    projectId: "pcb-component-detection-89a52",
+    storageBucket: "pcb-component-detection-89a52.appspot.com",
+    messagingSenderId: "992111924753",
+    appId: "1:992111924753:web:b30c05439c1d154a9243b0",
+    measurementId: "G-QPDBWEZQ1K"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
