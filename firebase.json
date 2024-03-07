@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "pcb-component-detection",
     "public": "build/web",
     "ignore": [
       "firebase.json",
