@@ -94,7 +94,7 @@ class RoboflowService {
       // Assuming 'imageUrl' is the image URL input from the form
       // Encode the URL and append it to the URL string
       String imageUrl =
-          'https://predictabledesigns.com/wp-content/uploads/2019/08/a-circuit-board-description-automatically-generat.jpeg'; // Get the value from the form
+          file.url; // Get the value from the form
       url += '&image=${Uri.encodeComponent(imageUrl)}';
     }
 
