@@ -11,12 +11,12 @@ class RoboflowService {
 
   String output = '';
 
-  Future<String> infer(DroppedFile file) async {
+  Future<String> infer(String imgUrl) async {
     // setState(() {
     output = "Inferring...";
     // });
 
-    var settings = await getSettingsFromForm(file);
+    var settings = await getSettingsFromForm(imgUrl);
     try {
       var response =
           await http.post(Uri.parse(settings['url']), body: settings['data']);
@@ -40,7 +40,7 @@ class RoboflowService {
     return output;
   }
 
-  Future<Map<String, dynamic>> getSettingsFromForm(DroppedFile file) async {
+  Future<Map<String, dynamic>> getSettingsFromForm(String imgUrl) async {
     // Replace these values with the actual values from your form fields
     String apiKey = 'IYFfEBPmMELFaVl0bIMn';
     String model = 'printed-circuit-board';
@@ -80,7 +80,7 @@ class RoboflowService {
       //     'https://example.com/image.jpg', 'image.jpg');
 
       // Assuming 'file' is the input file from the form
-      http.Response response = await http.get(Uri.parse(file.url));
+      http.Response response = await http.get(Uri.parse(imgUrl));
       if (response.statusCode == 200) {
         // Convert the image bytes to base64
         List<int> bytes = response.bodyBytes;
@@ -94,7 +94,7 @@ class RoboflowService {
       // Assuming 'imageUrl' is the image URL input from the form
       // Encode the URL and append it to the URL string
       String imageUrl =
-          file.url; // Get the value from the form
+          imgUrl; // Get the value from the form
       url += '&image=${Uri.encodeComponent(imageUrl)}';
     }
 

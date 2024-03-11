@@ -1,11 +1,26 @@
+import 'dart:html';
+import 'dart:io';
+import 'dart:typed_data';
+// import 'dart:html';
+// import 'dart:typed_data';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:pcb_detection/imagepicking.dart';
 import 'package:pcb_detection/model/dropped_file.dart';
 import 'package:pcb_detection/roboflow_service.dart';
 import 'package:pcb_detection/widgets/dropped_image_widget.dart';
 import 'package:pcb_detection/widgets/dropzone_widget.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+    apiKey: "AIzaSyA_gcV_6gNN5ZrlljDwrk7PxRT7z6-U1gA",
+    appId: "1:992111924753:web:b30c05439c1d154a9243b0",
+    messagingSenderId: "G-QPDBWEZQ1K",
+    storageBucket: "pcb-component-detection-89a52.appspot.com",
+    projectId: "pcb-component-detection-89a52",
+  ));
   runApp(const MyApp());
 }
 
@@ -40,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final String apiKey = "IYFfEBPmMELFaVl0bIMn";
   RoboflowService? roboflowService;
   String? prediction;
+  UploadTask? uploadTask;
 
   @override
   void initState() {
@@ -48,24 +64,20 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> generateResult(DroppedFile file) async {
-    // try {
-    // final imageBytes = await roboflowService!.downloadImage(file.url);
-    // if (imageBytes != null) {
-    //   print("Image downoaded successfully");
-    // }
-    final response = await roboflowService!.infer(file);
-    print(response);
-    // if (response != null) {
-    //   setState(() {
-    //     prediction =
-    //         response["class"]; // Assuming "class" key holds prediction
-    //   });
-    //   print("Prediction: $prediction");
-    // }
-    //   }
-    // } on Exception catch (e) {
-    //   print("Error: $e"); // Print a more informative error message
-    // }
+    final urlDownload = await uploadImage();
+    print(urlDownload);
+    final response = await roboflowService!.infer(urlDownload.toString());
+    // print(response);
+  }
+
+  Future<String> uploadImage() async {
+    final path = 'files/${file!.name}';
+    final Uint8List bytes = file!.fileData;
+    uploadTask = FirebaseStorage.instance.refFromURL('gs://pcb-component-detection-89a52.appspot.com').child(path).putData(bytes);
+    print('upload task done');
+    final snapshot = await uploadTask!.whenComplete(() {});
+    final urlDownload = await snapshot.ref.getDownloadURL();
+    return urlDownload;
   }
 
   @override

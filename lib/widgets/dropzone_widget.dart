@@ -20,7 +20,6 @@ class _DropzoneWidgetState extends State<DropzoneWidget> {
 
   @override
   Widget build(BuildContext context) {
-    final colorBackground = isHighlighted ? Colors.blue : Colors.green;
     final colorButton =
         isHighlighted ? Colors.blue.shade300 : Colors.green.shade300;
     return buildDecoration(
@@ -108,12 +107,18 @@ class _DropzoneWidgetState extends State<DropzoneWidget> {
   Future acceptFile(dynamic event) async {
     final name = event.name;
     final url = await controller.createFileUrl(event);
+    final mimeType = await controller.getFileMIME(event);
+    final fileData = await controller.getFileData(event);
     print("Name: $name");
     print("Url: $url");
+    print("MimeType: $mimeType");
+    // print("FileData: $fileData");
 
     final droppedFile = DroppedFile(
       url: url,
       name: name,
+      mimeType: mimeType,
+      fileData: fileData
     );
 
     widget.onDroppedFile(droppedFile);
