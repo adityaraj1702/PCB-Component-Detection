@@ -308,8 +308,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: GestureZoomBox(
                           maxScale: 5,
                           doubleTapScale: 2.5,
-                          child: Image.network(
-                            file!.url,
+                          child: Image.memory(
+                            imageToDisplay,
                             width: 500,
                             height: 400,
                             fit: BoxFit.contain,
