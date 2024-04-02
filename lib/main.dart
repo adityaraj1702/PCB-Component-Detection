@@ -1,15 +1,16 @@
-import 'dart:html';
-import 'dart:io';
+import 'dart:convert';
 import 'dart:typed_data';
-// import 'dart:html';
-// import 'dart:typed_data';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:gesture_zoom_box/gesture_zoom_box.dart';
+import 'package:pcb_detection/model/component_model.dart';
 import 'package:pcb_detection/model/dropped_file.dart';
 import 'package:pcb_detection/roboflow_service.dart';
+import 'package:pcb_detection/widgets/bounding_box.dart';
 import 'package:pcb_detection/widgets/dropped_image_widget.dart';
 import 'package:pcb_detection/widgets/dropzone_widget.dart';
+import 'package:pcb_detection/widgets/table_widget.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'PCB Compenent Detection and Estimantion'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -56,6 +58,52 @@ class _MyHomePageState extends State<MyHomePage> {
   RoboflowService? roboflowService;
   String? prediction;
   UploadTask? uploadTask;
+  var data = '';
+  String progress = '';
+  Uint8List imageToDisplay = Uint8List(0);
+  bool isLoaded = false;
+  bool isLoading = false;
+  late ComponentModel componentModel;
+  List<Color> colorList = [
+    Colors.red,
+    Colors.blue,
+    Colors.green,
+    Colors.yellow,
+    Colors.orange,
+    Colors.purple,
+    Colors.indigo,
+    Colors.teal,
+    Colors.cyan,
+    Colors.pink,
+    Colors.amber,
+    Colors.lime,
+    Colors.brown,
+    Colors.grey,
+    Colors.deepOrange,
+    Colors.deepPurple,
+    Colors.lightBlue,
+    Colors.lightGreen,
+    Colors.deepOrangeAccent,
+    Colors.deepPurpleAccent,
+    Colors.lightBlueAccent,
+    Colors.lightGreenAccent,
+    Colors.blueGrey,
+    Colors.black,
+    Colors.white,
+    Colors.blueAccent,
+    Colors.greenAccent,
+    Colors.redAccent,
+    Colors.yellowAccent,
+    Colors.orangeAccent,
+    Colors.purpleAccent,
+    Colors.indigoAccent,
+    Colors.tealAccent,
+    Colors.cyanAccent,
+    Colors.pinkAccent,
+    Colors.amberAccent,
+    Colors.limeAccent,
+    Colors.brown,
+  ];
 
   @override
   void initState() {
@@ -64,16 +112,36 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> generateResult(DroppedFile file) async {
+    setState(() {
+      isLoading = true;
+      progress = 'Uploading Image...';
+    });
     final urlDownload = await uploadImage();
-    print(urlDownload);
-    final response = await roboflowService!.infer(urlDownload.toString());
-    // print(response);
+    setState(() {
+      progress = 'Performing Inference...';
+    });
+    final body = await roboflowService!.infer(urlDownload.toString());
+    // final Map<String, dynamic> jsonResponse = jsonDecode(body);
+    final image = await roboflowService!.inferImage(urlDownload.toString());
+    setState(() {
+      progress = 'Result Generated!';
+      data = body;
+      // componentModel = ComponentModel.fromJson(jsonResponse);
+      imageToDisplay = image;
+      isLoading = false;
+      isLoaded = true;
+    });
+    //deleting image from firebase storage
+    await FirebaseStorage.instance.refFromURL(urlDownload.toString()).delete();
   }
 
   Future<String> uploadImage() async {
     final path = 'files/${file!.name}';
     final Uint8List bytes = file!.fileData;
-    uploadTask = FirebaseStorage.instance.refFromURL('gs://pcb-component-detection-89a52.appspot.com').child(path).putData(bytes);
+    uploadTask = FirebaseStorage.instance
+        .refFromURL('gs://pcb-component-detection-89a52.appspot.com')
+        .child(path)
+        .putData(bytes);
     print('upload task done');
     final snapshot = await uploadTask!.whenComplete(() {});
     final urlDownload = await snapshot.ref.getDownloadURL();
@@ -86,89 +154,174 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
+        centerTitle: true,
       ),
-      body: Container(
-        alignment: Alignment.center,
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                SizedBox(
-                  height: 300,
-                  width: 500,
-                  child: DropzoneWidget(
-                    onDroppedFile: (file) => setState(() => this.file = file),
-                  ),
-                ),
-                const SizedBox(
-                  width: 20,
-                ),
-                SizedBox(
-                  height: 300,
-                  width: 500,
-                  child: DroppedFileWidget(file: file),
-                ),
-              ],
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            ElevatedButton(
-              onPressed: () => generateResult(file!),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Column(
+            children: [
+              const SizedBox(
+                height: 50,
               ),
-              child: const Text(
-                'Generate Results',
-                style: TextStyle(color: Colors.white),
-              ),
-            ),
-            SizedBox(
-              height: 40,
-              width: 800,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              //draggable file picking
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Row(
-                    children: [
-                      const Text("Filter Accuracy: "),
-                      SizedBox(
-                        height: 40,
-                        width: 60,
-                        child: TextField(
-                          keyboardType: TextInputType.number,
-                          textAlignVertical: TextAlignVertical.top,
-                          decoration: InputDecoration(
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(5),
-                              borderSide: const BorderSide(
-                                color: Colors.blue,
+                  SizedBox(
+                    height: 300,
+                    width: 500,
+                    child: DropzoneWidget(
+                      onDroppedFile: (file) => setState(() => this.file = file),
+                    ),
+                  ),
+                  if (file != null)
+                    const SizedBox(
+                      width: 20,
+                    ),
+                  if (file != null)
+                    SizedBox(
+                      height: 300,
+                      width: 500,
+                      child: DroppedFileWidget(file: file),
+                    ),
+                ],
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              //generate button
+              ElevatedButton(
+                onPressed: () => generateResult(file!),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue,
+                ),
+                child: const Text(
+                  'Generate Results',
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+              //filter settings
+              SizedBox(
+                height: 40,
+                width: 800,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        const Text("Filter Accuracy: "),
+                        SizedBox(
+                          height: 40,
+                          width: 60,
+                          child: TextField(
+                            keyboardType: TextInputType.number,
+                            textAlignVertical: TextAlignVertical.top,
+                            decoration: InputDecoration(
+                              border: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(5),
+                                borderSide: const BorderSide(
+                                  color: Colors.blue,
+                                ),
                               ),
                             ),
                           ),
                         ),
-                      ),
-                      const Text(" %"),
-                    ],
-                  ),
-                  const Row(
-                    children: [
-                      Text("Filter Components: "),
-                      SizedBox(
-                        height: 40,
-                        width: 100,
-                        child: Text(
-                            "Make multiselect dropdown based on json result"),
-                      ),
-                    ],
-                  ),
-                ],
+                        const Text(" %"),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        const Text("Filter Components: "),
+                        const SizedBox(
+                          width: 20,
+                        ),
+                        // Center(
+                        //   child: DropdownButtonFormField<String>(
+                        //     items: classes.map((String value) {
+                        //       return DropdownMenuItem<String>(
+                        //         value: value,
+                        //         child: Row(
+                        //           children: <Widget>[
+                        //             Checkbox(
+                        //               value: selectedClasses.contains(value),
+                        //               onChanged: (bool? newValue) {
+                        //                 setState(() {
+                        //                   if (newValue!) {
+                        //                     selectedClasses.add(value);
+                        //                   } else {
+                        //                     selectedClasses.remove(value);
+                        //                   }
+                        //                 });
+                        //               },
+                        //             ),
+                        //             Text(value),
+                        //           ],
+                        //         ),
+                        //       );
+                        //     }).toList(),
+                        //     onChanged: (String? newValue) {
+                        //       // Handle dropdown value change
+                        //     },
+                        //     value: null,
+                        //     isExpanded: true,
+                        //     decoration: InputDecoration(
+                        //       labelText: 'Select classes',
+                        //       border: OutlineInputBorder(),
+                        //     ),
+                        //   ),
+
+                        // ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
-            ),
-          ],
+              //load table and annotated image
+              if (isLoading == true)
+                Column(
+                  children: [
+                    const SizedBox(
+                      height: 100,
+                    ),
+                    const CircularProgressIndicator(),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Text(progress),
+                  ],
+                ),
+              if (isLoaded == true)
+                SizedBox(
+                  height: 1000,
+                  width: 1000,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      TableWidget(
+                        data: data,
+                      ),
+                      const SizedBox(
+                        width: 20,
+                      ),
+                      GestureDetector(
+                        child: GestureZoomBox(
+                          maxScale: 5,
+                          doubleTapScale: 2.5,
+                          child: Image.network(
+                            file!.url,
+                            width: 500,
+                            height: 400,
+                            fit: BoxFit.contain,
+                            // child: ComponentImage(colorList: colorList,image: ,predictions: [],selectedClass: [],),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                )
+            ],
+          ),
         ),
       ),
     );

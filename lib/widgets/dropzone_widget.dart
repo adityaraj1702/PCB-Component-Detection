@@ -6,7 +6,7 @@ import 'package:pcb_detection/model/dropped_file.dart';
 class DropzoneWidget extends StatefulWidget {
   final ValueChanged<DroppedFile> onDroppedFile;
   const DropzoneWidget({
-    Key? key,
+     Key? key,
     required this.onDroppedFile,
   }) : super(key: key);
 

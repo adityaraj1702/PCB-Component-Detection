@@ -1,4 +1,6 @@
 import 'dart:convert';
+import 'dart:ui';
+import 'dart:typed_data';
 import 'package:http/http.dart' as http;
 import 'package:pcb_detection/model/dropped_file.dart';
 
@@ -9,7 +11,23 @@ class RoboflowService {
 
   RoboflowService(this.modelId, this.apiKey);
 
-  String output = '';
+  var output = '';
+  Future<Uint8List> inferImage(String imgUrl) async {
+    try {
+      String url =
+          "https://detect.roboflow.com/printed-circuit-board/3?api_key=IYFfEBPmMELFaVl0bIMn&confidence=40&overlap=30&format=image&labels=on&stroke=2&image=${Uri.encodeComponent(imgUrl)}";
+      String data = 'data:image/jpeg;base64,';
+      var response = await http.post(Uri.parse(url), body: data);
+      if (response.statusCode == 200) {
+        Uint8List imageData = response.bodyBytes;
+        return imageData;
+      } else {
+        throw Exception('Failed to load image');
+      }
+    } catch (e) {
+      throw Exception('Failed to fetch image: $e');
+    }
+  }
 
   Future<String> infer(String imgUrl) async {
     // setState(() {
@@ -23,7 +41,8 @@ class RoboflowService {
 
       if (response.statusCode == 200) {
         // setState(() {
-        output = json.decode(response.body).toString();
+        // output = json.decode(response.body);
+        output = response.body;
         // });
       } else {
         // setState(() {
@@ -93,9 +112,7 @@ class RoboflowService {
     } else {
       // Assuming 'imageUrl' is the image URL input from the form
       // Encode the URL and append it to the URL string
-      String imageUrl =
-          imgUrl; // Get the value from the form
-      url += '&image=${Uri.encodeComponent(imageUrl)}';
+      url += '&image=${Uri.encodeComponent(imgUrl)}';
     }
 
     return {'method': 'POST', 'format': format, 'url': url, 'data': data};

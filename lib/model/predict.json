@@ -1,0 +1,3009 @@
+{
+    "time": 2.4629896649998955,
+    "image": {
+        "width": 2048,
+        "height": 1498
+    },
+    "predictions": [
+        {
+            "x": 798.0,
+            "y": 817.5,
+            "width": 242.0,
+            "height": 247.0,
+            "confidence": 0.9403144717216492,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "ff7e1c8d-1d68-4909-9b25-2f10294bfe7a"
+        },
+        {
+            "x": 286.0,
+            "y": 693.5,
+            "width": 186.0,
+            "height": 171.0,
+            "confidence": 0.9391250610351562,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "db3faf1d-0814-4e64-921e-588d10265fa6"
+        },
+        {
+            "x": 271.0,
+            "y": 1087.0,
+            "width": 202.0,
+            "height": 174.0,
+            "confidence": 0.9363261461257935,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "2c567147-d3c2-4948-955d-adb9cc2e07a1"
+        },
+        {
+            "x": 269.5,
+            "y": 276.0,
+            "width": 85.0,
+            "height": 38.0,
+            "confidence": 0.932342529296875,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "302592e6-80c3-4283-a898-794705223d45"
+        },
+        {
+            "x": 1317.0,
+            "y": 261.0,
+            "width": 86.0,
+            "height": 44.0,
+            "confidence": 0.9203211665153503,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "02bef84b-03bd-4b53-8cbd-fe26cc8bd77e"
+        },
+        {
+            "x": 955.5,
+            "y": 395.0,
+            "width": 107.0,
+            "height": 96.0,
+            "confidence": 0.9184155464172363,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "006df96b-2abd-43e8-9482-bc04c24ad604"
+        },
+        {
+            "x": 1164.0,
+            "y": 265.5,
+            "width": 78.0,
+            "height": 41.0,
+            "confidence": 0.9169886708259583,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "26a53e42-e81d-4a46-b430-e03ccbaedcfd"
+        },
+        {
+            "x": 585.0,
+            "y": 269.5,
+            "width": 86.0,
+            "height": 41.0,
+            "confidence": 0.9151247143745422,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "b7bb6b33-d486-4ed4-9305-d4fa69cf9108"
+        },
+        {
+            "x": 731.5,
+            "y": 268.0,
+            "width": 85.0,
+            "height": 40.0,
+            "confidence": 0.9147602319717407,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "ee1984e6-eb20-445b-8cbe-7bc3802e5769"
+        },
+        {
+            "x": 660.0,
+            "y": 398.0,
+            "width": 86.0,
+            "height": 96.0,
+            "confidence": 0.9120559692382812,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "8b5c392c-6f31-421a-9a07-b7cfd4739cd2"
+        },
+        {
+            "x": 1248.0,
+            "y": 389.5,
+            "width": 98.0,
+            "height": 93.0,
+            "confidence": 0.9118908047676086,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "dd521394-0910-4da1-99fc-ad7e80a548b7"
+        },
+        {
+            "x": 1189.5,
+            "y": 1333.5,
+            "width": 93.0,
+            "height": 125.0,
+            "confidence": 0.9088646769523621,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "cf576f4f-e279-4f1f-b4c5-94e78167594e"
+        },
+        {
+            "x": 359.5,
+            "y": 404.5,
+            "width": 89.0,
+            "height": 91.0,
+            "confidence": 0.9080831408500671,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "5daebcfe-5043-424d-a111-f975b7231be9"
+        },
+        {
+            "x": 1030.0,
+            "y": 265.0,
+            "width": 82.0,
+            "height": 50.0,
+            "confidence": 0.9051626324653625,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "98959117-dffe-4972-b29e-c8e2027cc36c"
+        },
+        {
+            "x": 883.0,
+            "y": 266.0,
+            "width": 76.0,
+            "height": 38.0,
+            "confidence": 0.9050180315971375,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "b2fb5163-29b7-49e3-91f2-5278e4c8a6cb"
+        },
+        {
+            "x": 1318.0,
+            "y": 263.0,
+            "width": 88.0,
+            "height": 46.0,
+            "confidence": 0.9047631621360779,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "6dbb555f-661d-4c29-b93d-f312b5dfb5d2"
+        },
+        {
+            "x": 1294.5,
+            "y": 1328.0,
+            "width": 95.0,
+            "height": 130.0,
+            "confidence": 0.9030030369758606,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "72239025-bd5f-4833-870d-8b73cec3a8c1"
+        },
+        {
+            "x": 1068.0,
+            "y": 1316.0,
+            "width": 138.0,
+            "height": 168.0,
+            "confidence": 0.9026840329170227,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "a0c313c7-2ae7-4a56-8110-4a0503795333"
+        },
+        {
+            "x": 1526.5,
+            "y": 392.5,
+            "width": 93.0,
+            "height": 91.0,
+            "confidence": 0.9016518592834473,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "6b1e392e-3657-4162-8647-2f6adbe1c149"
+        },
+        {
+            "x": 1593.0,
+            "y": 1303.5,
+            "width": 134.0,
+            "height": 187.0,
+            "confidence": 0.9013011455535889,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "eff8cb7a-e601-4530-aed9-fd3236118e5b"
+        },
+        {
+            "x": 1158.5,
+            "y": 1120.5,
+            "width": 87.0,
+            "height": 43.0,
+            "confidence": 0.9010474681854248,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "4222419a-657b-4820-b03e-3a9e18f8660f"
+        },
+        {
+            "x": 1395.5,
+            "y": 346.5,
+            "width": 95.0,
+            "height": 107.0,
+            "confidence": 0.8973805904388428,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "e4b1ffb8-2121-4a29-ba69-0be49d1cf6cb"
+        },
+        {
+            "x": 1099.5,
+            "y": 186.5,
+            "width": 93.0,
+            "height": 103.0,
+            "confidence": 0.8966654539108276,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "e07db5a9-401d-4193-a96f-b9588b112f80"
+        },
+        {
+            "x": 804.0,
+            "y": 187.0,
+            "width": 92.0,
+            "height": 106.0,
+            "confidence": 0.8961819410324097,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "23ac7f20-d565-4116-917a-f4dd6dec4039"
+        },
+        {
+            "x": 438.0,
+            "y": 272.5,
+            "width": 86.0,
+            "height": 37.0,
+            "confidence": 0.8954781889915466,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "e4086f6b-5446-4450-8304-043477c364ba"
+        },
+        {
+            "x": 1584.0,
+            "y": 259.5,
+            "width": 76.0,
+            "height": 41.0,
+            "confidence": 0.8952845335006714,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "39d836a5-297b-4006-975e-648ab0ac659f"
+        },
+        {
+            "x": 1466.5,
+            "y": 1324.0,
+            "width": 101.0,
+            "height": 140.0,
+            "confidence": 0.8947908282279968,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "87231db1-801c-4ddd-85a0-53ca9cb92644"
+        },
+        {
+            "x": 859.0,
+            "y": 1071.5,
+            "width": 104.0,
+            "height": 105.0,
+            "confidence": 0.8906378746032715,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "d18e5ed3-c2b8-4e9e-9cee-80b67c57298f"
+        },
+        {
+            "x": 439.0,
+            "y": 271.5,
+            "width": 86.0,
+            "height": 39.0,
+            "confidence": 0.8891782164573669,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "f6429770-4ff4-455d-8418-cfc8b6f28f4e"
+        },
+        {
+            "x": 1387.0,
+            "y": 671.5,
+            "width": 88.0,
+            "height": 45.0,
+            "confidence": 0.8886762857437134,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "5cd4111f-da04-450e-900f-73ed78d697ef"
+        },
+        {
+            "x": 505.5,
+            "y": 199.0,
+            "width": 93.0,
+            "height": 112.0,
+            "confidence": 0.8867887854576111,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "c5f26e52-347a-4b8c-9db9-62067815be31"
+        },
+        {
+            "x": 1264.5,
+            "y": 1118.0,
+            "width": 83.0,
+            "height": 44.0,
+            "confidence": 0.886214554309845,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "4512b4d4-f766-4274-ac24-6929ab182852"
+        },
+        {
+            "x": 1396.0,
+            "y": 342.0,
+            "width": 90.0,
+            "height": 104.0,
+            "confidence": 0.8857705593109131,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "1c7377a3-ac0d-4c73-a5e8-93551983b2a8"
+        },
+        {
+            "x": 307.0,
+            "y": 895.5,
+            "width": 234.0,
+            "height": 211.0,
+            "confidence": 0.8842676281929016,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "11fb542c-071d-47f4-a7b9-682d0229e385"
+        },
+        {
+            "x": 1490.5,
+            "y": 694.5,
+            "width": 71.0,
+            "height": 241.0,
+            "confidence": 0.8793581128120422,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "2614df7a-1242-4873-bab2-3b0ba99da0df"
+        },
+        {
+            "x": 226.0,
+            "y": 1231.0,
+            "width": 60.0,
+            "height": 84.0,
+            "confidence": 0.8782632350921631,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "a2bf9c5d-e60c-4a2f-a2fd-2a06b0b8a365"
+        },
+        {
+            "x": 338.5,
+            "y": 1311.5,
+            "width": 91.0,
+            "height": 73.0,
+            "confidence": 0.8753223419189453,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "fa2228e6-62bf-42ab-a700-c147f81c2213"
+        },
+        {
+            "x": 910.0,
+            "y": 605.0,
+            "width": 82.0,
+            "height": 90.0,
+            "confidence": 0.8745800256729126,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "f61c6aa1-635a-48bc-b6df-940252b854b7"
+        },
+        {
+            "x": 1230.5,
+            "y": 614.0,
+            "width": 87.0,
+            "height": 80.0,
+            "confidence": 0.8735965490341187,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "fdd029c2-46eb-4f40-a27d-8d50f4624542"
+        },
+        {
+            "x": 245.5,
+            "y": 1310.0,
+            "width": 97.0,
+            "height": 66.0,
+            "confidence": 0.8733716011047363,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "b63bdcd8-07e8-44ec-9b5d-20040ac4a782"
+        },
+        {
+            "x": 270.5,
+            "y": 274.5,
+            "width": 77.0,
+            "height": 35.0,
+            "confidence": 0.8715691566467285,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "fdcbe7b5-f8df-489c-a9e7-647f33c626b5"
+        },
+        {
+            "x": 791.5,
+            "y": 1320.0,
+            "width": 123.0,
+            "height": 166.0,
+            "confidence": 0.8709186911582947,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "73b66a1b-5f21-479e-a0a0-55f2c6799336"
+        },
+        {
+            "x": 1385.5,
+            "y": 613.5,
+            "width": 91.0,
+            "height": 43.0,
+            "confidence": 0.8677811622619629,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "bee51a8f-2301-49cc-b53a-7c6d0e69a56f"
+        },
+        {
+            "x": 858.0,
+            "y": 1066.0,
+            "width": 100.0,
+            "height": 104.0,
+            "confidence": 0.8669523596763611,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "faaa169e-4c2c-464e-a329-eb9a5df0a115"
+        },
+        {
+            "x": 1246.5,
+            "y": 204.0,
+            "width": 127.0,
+            "height": 62.0,
+            "confidence": 0.8632587194442749,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "00d78ca8-3d75-4949-9b40-8d309edc0bc0"
+        },
+        {
+            "x": 1252.0,
+            "y": 784.5,
+            "width": 36.0,
+            "height": 89.0,
+            "confidence": 0.862756073474884,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "6519dc27-b68d-4099-ac4d-d1e434fe12ba"
+        },
+        {
+            "x": 1455.5,
+            "y": 1221.0,
+            "width": 63.0,
+            "height": 30.0,
+            "confidence": 0.8602450489997864,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "85172dec-3f73-4b4f-8b8f-5f001f9b1a36"
+        },
+        {
+            "x": 1563.0,
+            "y": 774.0,
+            "width": 54.0,
+            "height": 92.0,
+            "confidence": 0.8587255477905273,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "9e7227b6-5c16-4366-8f33-21edcae5271e"
+        },
+        {
+            "x": 1561.5,
+            "y": 636.0,
+            "width": 57.0,
+            "height": 92.0,
+            "confidence": 0.8582153916358948,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "609bd27f-0f93-4a08-950c-dcb8f1a86940"
+        },
+        {
+            "x": 1386.5,
+            "y": 613.0,
+            "width": 91.0,
+            "height": 44.0,
+            "confidence": 0.856258749961853,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "08400135-dd3c-4b06-8e76-1679bb46d346"
+        },
+        {
+            "x": 1386.0,
+            "y": 725.5,
+            "width": 102.0,
+            "height": 43.0,
+            "confidence": 0.8555164337158203,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "2704a9dc-769a-41c0-b01a-ab402cdc97b7"
+        },
+        {
+            "x": 657.5,
+            "y": 211.5,
+            "width": 119.0,
+            "height": 63.0,
+            "confidence": 0.8517429828643799,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "9249c2ff-f8f7-4dc8-a7b6-121153bb2b59"
+        },
+        {
+            "x": 1388.5,
+            "y": 614.0,
+            "width": 99.0,
+            "height": 44.0,
+            "confidence": 0.850907564163208,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "55c645f4-7fb1-4b5d-a041-e806c2421720"
+        },
+        {
+            "x": 1385.5,
+            "y": 723.0,
+            "width": 93.0,
+            "height": 44.0,
+            "confidence": 0.8491072058677673,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "23609294-f2a8-412d-8d95-734ceff2b669"
+        },
+        {
+            "x": 1132.5,
+            "y": 847.0,
+            "width": 101.0,
+            "height": 74.0,
+            "confidence": 0.8489925861358643,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "8540c492-c47b-44e4-8e72-cee0b209cf93"
+        },
+        {
+            "x": 926.0,
+            "y": 1320.0,
+            "width": 124.0,
+            "height": 178.0,
+            "confidence": 0.8489525318145752,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "c622d8b5-f26b-4485-a8a5-a7d43e41950a"
+        },
+        {
+            "x": 1365.0,
+            "y": 486.5,
+            "width": 86.0,
+            "height": 119.0,
+            "confidence": 0.8472900986671448,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "149667fe-ad3d-4a6d-88e0-9c5e7067a565"
+        },
+        {
+            "x": 954.5,
+            "y": 207.5,
+            "width": 119.0,
+            "height": 61.0,
+            "confidence": 0.8465057611465454,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "8c419524-f73f-41c1-836d-765906ec3445"
+        },
+        {
+            "x": 438.0,
+            "y": 271.5,
+            "width": 86.0,
+            "height": 39.0,
+            "confidence": 0.8465002179145813,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "835c7f2d-93c5-4766-b326-ebc66b7e7116"
+        },
+        {
+            "x": 583.5,
+            "y": 269.0,
+            "width": 91.0,
+            "height": 46.0,
+            "confidence": 0.8464668989181519,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "82b46f1e-fbfa-46a2-abcb-e8986bd74280"
+        },
+        {
+            "x": 1159.5,
+            "y": 1119.0,
+            "width": 89.0,
+            "height": 42.0,
+            "confidence": 0.846229076385498,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "46245ae7-32c7-4ad6-8be3-e7d8e61838ca"
+        },
+        {
+            "x": 1456.0,
+            "y": 262.0,
+            "width": 82.0,
+            "height": 40.0,
+            "confidence": 0.8459182977676392,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "d2b014c8-38e4-44d7-85ed-351e41be9b1c"
+        },
+        {
+            "x": 438.0,
+            "y": 270.0,
+            "width": 88.0,
+            "height": 42.0,
+            "confidence": 0.8430615663528442,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "b7a4a9f0-11af-4996-ad8f-f76622553344"
+        },
+        {
+            "x": 430.5,
+            "y": 1309.5,
+            "width": 89.0,
+            "height": 73.0,
+            "confidence": 0.8414736390113831,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "5c2678d7-973e-48b3-993c-e74608a700cb"
+        },
+        {
+            "x": 1319.0,
+            "y": 263.5,
+            "width": 88.0,
+            "height": 41.0,
+            "confidence": 0.840570330619812,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "b892c81a-77f0-465b-bb6a-785d2e229e1d"
+        },
+        {
+            "x": 268.5,
+            "y": 276.0,
+            "width": 83.0,
+            "height": 36.0,
+            "confidence": 0.8394203782081604,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "6c9b63fc-61e5-4ac3-9093-95fd8e3357e7"
+        },
+        {
+            "x": 538.5,
+            "y": 715.0,
+            "width": 47.0,
+            "height": 48.0,
+            "confidence": 0.8375176787376404,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "091632d0-bde1-4752-a00e-938674b66598"
+        },
+        {
+            "x": 520.0,
+            "y": 1307.5,
+            "width": 90.0,
+            "height": 69.0,
+            "confidence": 0.8375149369239807,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "e6d043f5-353b-43be-916a-32dc610b44aa"
+        },
+        {
+            "x": 1523.5,
+            "y": 203.0,
+            "width": 129.0,
+            "height": 56.0,
+            "confidence": 0.8362461924552917,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "b6f9663b-2cc9-43d0-86c2-4915f0f69ec0"
+        },
+        {
+            "x": 1382.5,
+            "y": 725.0,
+            "width": 95.0,
+            "height": 42.0,
+            "confidence": 0.8347910642623901,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "afab958e-515a-4126-a13b-ca98529dca73"
+        },
+        {
+            "x": 437.5,
+            "y": 271.5,
+            "width": 89.0,
+            "height": 41.0,
+            "confidence": 0.8340895175933838,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "2bd0b154-0663-42b8-87f7-af70c59698dd"
+        },
+        {
+            "x": 749.5,
+            "y": 1185.0,
+            "width": 117.0,
+            "height": 80.0,
+            "confidence": 0.8336032032966614,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "8991bdcd-3be1-4c68-9b42-2c606894fb2e"
+        },
+        {
+            "x": 1455.5,
+            "y": 262.0,
+            "width": 83.0,
+            "height": 40.0,
+            "confidence": 0.8314397931098938,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "dbd13d3c-6bf1-4797-8947-a04946b27dd6"
+        },
+        {
+            "x": 1267.0,
+            "y": 1120.0,
+            "width": 80.0,
+            "height": 42.0,
+            "confidence": 0.8312205076217651,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "53e0f3b3-4b5b-4335-976c-7b0a5dab74ff"
+        },
+        {
+            "x": 1159.5,
+            "y": 1119.5,
+            "width": 85.0,
+            "height": 35.0,
+            "confidence": 0.8301013708114624,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "3ebba2e9-28c6-412d-8f24-cfdf8fa4df19"
+        },
+        {
+            "x": 999.0,
+            "y": 1053.5,
+            "width": 88.0,
+            "height": 61.0,
+            "confidence": 0.829925537109375,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "761813a1-91a7-45f2-968f-f3db65c8cd1b"
+        },
+        {
+            "x": 1479.5,
+            "y": 1125.5,
+            "width": 93.0,
+            "height": 39.0,
+            "confidence": 0.8287250995635986,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "d8450356-fdad-40c8-8433-f63b651d6afe"
+        },
+        {
+            "x": 881.0,
+            "y": 268.0,
+            "width": 86.0,
+            "height": 48.0,
+            "confidence": 0.8286696076393127,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "b931d255-f57a-4ba2-b639-a46b9eaa9e01"
+        },
+        {
+            "x": 1385.5,
+            "y": 723.0,
+            "width": 93.0,
+            "height": 44.0,
+            "confidence": 0.8274606466293335,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "2d954491-f839-486c-8873-007cf8c3241a"
+        },
+        {
+            "x": 1157.5,
+            "y": 1049.0,
+            "width": 77.0,
+            "height": 98.0,
+            "confidence": 0.8218881487846375,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "5f53e9f6-d217-4d0f-83c0-dab1c4e5869c"
+        },
+        {
+            "x": 1480.5,
+            "y": 1125.5,
+            "width": 91.0,
+            "height": 37.0,
+            "confidence": 0.8204758167266846,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "510f7289-9818-4820-9dbc-cf1abb4bcc8e"
+        },
+        {
+            "x": 247.0,
+            "y": 341.5,
+            "width": 58.0,
+            "height": 35.0,
+            "confidence": 0.8179676532745361,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "78e16bce-5c9c-43a9-bb08-64bbb5a20e35"
+        },
+        {
+            "x": 1387.5,
+            "y": 669.0,
+            "width": 89.0,
+            "height": 42.0,
+            "confidence": 0.8175973296165466,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "57bb7c57-4371-4e45-af44-ed21a7851af9"
+        },
+        {
+            "x": 1695.5,
+            "y": 1045.5,
+            "width": 109.0,
+            "height": 115.0,
+            "confidence": 0.8158351182937622,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "c45009ce-5b83-40ba-b76e-30747939fc47"
+        },
+        {
+            "x": 1364.0,
+            "y": 486.5,
+            "width": 84.0,
+            "height": 113.0,
+            "confidence": 0.8153782486915588,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "5053b2c2-8577-42b2-9653-0e56089f9457"
+        },
+        {
+            "x": 1033.5,
+            "y": 856.0,
+            "width": 25.0,
+            "height": 64.0,
+            "confidence": 0.809499979019165,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "8802cbf1-e9d9-4061-b6c0-a18a1efa7fe4"
+        },
+        {
+            "x": 656.5,
+            "y": 165.5,
+            "width": 149.0,
+            "height": 49.0,
+            "confidence": 0.8088650107383728,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "908d8c64-af94-48d8-b677-b06c4b7e416a"
+        },
+        {
+            "x": 1480.5,
+            "y": 1127.0,
+            "width": 87.0,
+            "height": 42.0,
+            "confidence": 0.8083765506744385,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "66163e2a-0a43-480b-bbf8-c79d752a9939"
+        },
+        {
+            "x": 1494.5,
+            "y": 931.0,
+            "width": 47.0,
+            "height": 54.0,
+            "confidence": 0.8076703548431396,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "3073c392-3e84-4afc-b537-e28147e3d771"
+        },
+        {
+            "x": 1104.5,
+            "y": 646.0,
+            "width": 109.0,
+            "height": 34.0,
+            "confidence": 0.8073605895042419,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "7f70f069-f2d8-4c93-b8fe-317945a66808"
+        },
+        {
+            "x": 354.0,
+            "y": 170.5,
+            "width": 150.0,
+            "height": 45.0,
+            "confidence": 0.8045216202735901,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "b1c8cdff-8911-4d5d-b87f-49e218bf34a3"
+        },
+        {
+            "x": 1242.5,
+            "y": 156.5,
+            "width": 141.0,
+            "height": 47.0,
+            "confidence": 0.8009511828422546,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "64352ffd-e690-4beb-b276-d512de6a3046"
+        },
+        {
+            "x": 1272.5,
+            "y": 1045.5,
+            "width": 77.0,
+            "height": 81.0,
+            "confidence": 0.7983441352844238,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "477f43e9-eb12-4acc-94c0-50331b06bd47"
+        },
+        {
+            "x": 264.0,
+            "y": 389.0,
+            "width": 26.0,
+            "height": 54.0,
+            "confidence": 0.7980356812477112,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "ae8aa3ae-26d9-4b63-8ea9-52d27198cd23"
+        },
+        {
+            "x": 1457.0,
+            "y": 260.5,
+            "width": 82.0,
+            "height": 41.0,
+            "confidence": 0.7927454113960266,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "d244eb52-90c9-45c0-9063-2431e06af89a"
+        },
+        {
+            "x": 262.5,
+            "y": 454.5,
+            "width": 27.0,
+            "height": 59.0,
+            "confidence": 0.7921701073646545,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "0c0af45b-9795-4414-b637-ddc865a4e1f7"
+        },
+        {
+            "x": 1267.0,
+            "y": 1118.0,
+            "width": 88.0,
+            "height": 44.0,
+            "confidence": 0.7912503480911255,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "6a39beb0-9208-4ffd-ab8e-7e89d1312486"
+        },
+        {
+            "x": 855.5,
+            "y": 1181.0,
+            "width": 61.0,
+            "height": 36.0,
+            "confidence": 0.787977933883667,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "0695f6ed-bf67-42ca-afa0-2c1a039e5d87"
+        },
+        {
+            "x": 1583.5,
+            "y": 261.0,
+            "width": 79.0,
+            "height": 38.0,
+            "confidence": 0.7843731641769409,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "d92db45f-42e7-4576-8a43-34f37e36861b"
+        },
+        {
+            "x": 902.5,
+            "y": 307.0,
+            "width": 23.0,
+            "height": 30.0,
+            "confidence": 0.7840970158576965,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "3aaaf50a-c89d-4d5e-9796-d890b07cbaaf"
+        },
+        {
+            "x": 1392.0,
+            "y": 816.5,
+            "width": 88.0,
+            "height": 123.0,
+            "confidence": 0.7798696756362915,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "fc1f554e-053f-43ef-81d3-b6fe78547f34"
+        },
+        {
+            "x": 265.5,
+            "y": 518.0,
+            "width": 25.0,
+            "height": 52.0,
+            "confidence": 0.7789847254753113,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "1ea6246e-0f8d-47c6-9072-7a7211b312e5"
+        },
+        {
+            "x": 279.0,
+            "y": 585.0,
+            "width": 60.0,
+            "height": 28.0,
+            "confidence": 0.777679979801178,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "00a3db14-5974-4111-808e-19b66d7b0635"
+        },
+        {
+            "x": 567.5,
+            "y": 1109.0,
+            "width": 31.0,
+            "height": 26.0,
+            "confidence": 0.7770062685012817,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "2237390b-4271-4b6a-b75c-badbcefff63a"
+        },
+        {
+            "x": 1160.5,
+            "y": 1045.5,
+            "width": 79.0,
+            "height": 91.0,
+            "confidence": 0.7768673896789551,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "22c7571c-b0b2-4599-b817-b82695689555"
+        },
+        {
+            "x": 544.0,
+            "y": 1195.0,
+            "width": 64.0,
+            "height": 28.0,
+            "confidence": 0.7745270729064941,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "92a8f3f7-df1d-4b3d-8876-035f0848dde7"
+        },
+        {
+            "x": 1509.0,
+            "y": 1058.5,
+            "width": 80.0,
+            "height": 71.0,
+            "confidence": 0.7717123627662659,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "eed61a97-5440-4ae9-83c8-c0cd60e3542a"
+        },
+        {
+            "x": 279.5,
+            "y": 586.0,
+            "width": 63.0,
+            "height": 26.0,
+            "confidence": 0.7713606953620911,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "14ddc7d1-7422-4cfa-b51b-84320de5709b"
+        },
+        {
+            "x": 547.5,
+            "y": 1163.5,
+            "width": 63.0,
+            "height": 27.0,
+            "confidence": 0.766991376876831,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "68ea086f-d16c-4a49-97e2-ba00ec2618eb"
+        },
+        {
+            "x": 611.5,
+            "y": 1305.5,
+            "width": 87.0,
+            "height": 63.0,
+            "confidence": 0.7663183212280273,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "a04787f0-b03c-4bb7-8fff-c3d5822c23f2"
+        },
+        {
+            "x": 658.5,
+            "y": 1098.5,
+            "width": 51.0,
+            "height": 57.0,
+            "confidence": 0.7644397020339966,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "9922e3a1-b31e-434a-b8ac-23edd6dcedd4"
+        },
+        {
+            "x": 511.0,
+            "y": 1255.5,
+            "width": 36.0,
+            "height": 33.0,
+            "confidence": 0.7636983394622803,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "19f358ea-58b4-459a-942c-e55366ebd583"
+        },
+        {
+            "x": 1518.0,
+            "y": 156.5,
+            "width": 142.0,
+            "height": 45.0,
+            "confidence": 0.7636134028434753,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "414fb773-b9e8-40f2-8ad4-8957dd24d096"
+        },
+        {
+            "x": 487.0,
+            "y": 610.0,
+            "width": 78.0,
+            "height": 50.0,
+            "confidence": 0.7605839967727661,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "0238ae07-ec56-447c-8ab5-1cef8cf87e4d"
+        },
+        {
+            "x": 689.0,
+            "y": 1288.0,
+            "width": 54.0,
+            "height": 60.0,
+            "confidence": 0.7588344812393188,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "4b8b1f98-f2dd-412a-986b-58767e1c315c"
+        },
+        {
+            "x": 465.0,
+            "y": 507.5,
+            "width": 20.0,
+            "height": 119.0,
+            "confidence": 0.7582160234451294,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "1b427205-fc4e-42c3-b15e-377bcf1f8e39"
+        },
+        {
+            "x": 1183.5,
+            "y": 1249.0,
+            "width": 53.0,
+            "height": 36.0,
+            "confidence": 0.7550264596939087,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "d0e5781d-c36a-44d0-9a5e-28a6baf241b0"
+        },
+        {
+            "x": 567.5,
+            "y": 1255.0,
+            "width": 33.0,
+            "height": 28.0,
+            "confidence": 0.7542961239814758,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "cb3c8301-7584-4148-99a0-d157245c9d5f"
+        },
+        {
+            "x": 353.5,
+            "y": 215.5,
+            "width": 125.0,
+            "height": 63.0,
+            "confidence": 0.7522590160369873,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "2765c19b-412c-4659-bf75-7b8b64ad88d6"
+        },
+        {
+            "x": 1383.5,
+            "y": 949.5,
+            "width": 115.0,
+            "height": 93.0,
+            "confidence": 0.7518509030342102,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "1fbb413b-05d1-4eba-b8ea-f2ffcbb6d8a8"
+        },
+        {
+            "x": 856.0,
+            "y": 1179.5,
+            "width": 60.0,
+            "height": 37.0,
+            "confidence": 0.7501934766769409,
+            "class": "Pins",
+            "class_id": 14,
+            "detection_id": "8182f880-b711-4fe4-a06e-87446ec100b5"
+        },
+        {
+            "x": 1066.5,
+            "y": 854.0,
+            "width": 37.0,
+            "height": 72.0,
+            "confidence": 0.7499107122421265,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "faa5579f-8092-4927-a48a-6acdc6983934"
+        },
+        {
+            "x": 1270.0,
+            "y": 1046.5,
+            "width": 76.0,
+            "height": 85.0,
+            "confidence": 0.7492548227310181,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "8767e2fe-6d4b-4697-9287-013e82f697d6"
+        },
+        {
+            "x": 1266.5,
+            "y": 1121.0,
+            "width": 81.0,
+            "height": 42.0,
+            "confidence": 0.7487404346466064,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "b097dfda-da86-4813-9a95-f75062101244"
+        },
+        {
+            "x": 1390.5,
+            "y": 809.5,
+            "width": 97.0,
+            "height": 123.0,
+            "confidence": 0.7477654218673706,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "99b7d387-e37f-4595-a8c2-02e948737fef"
+        },
+        {
+            "x": 1596.0,
+            "y": 1161.5,
+            "width": 116.0,
+            "height": 71.0,
+            "confidence": 0.745202898979187,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "c9196162-86ba-4eec-b260-bb7559689e12"
+        },
+        {
+            "x": 733.5,
+            "y": 1054.0,
+            "width": 87.0,
+            "height": 30.0,
+            "confidence": 0.7447541952133179,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "5c02881e-c833-4fde-b8d8-0a32bc7b4567"
+        },
+        {
+            "x": 568.0,
+            "y": 1108.0,
+            "width": 34.0,
+            "height": 26.0,
+            "confidence": 0.7439734935760498,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "040b6728-7735-4ba0-be4f-99009d8d684c"
+        },
+        {
+            "x": 566.5,
+            "y": 1254.0,
+            "width": 33.0,
+            "height": 28.0,
+            "confidence": 0.7406271696090698,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "7222f333-fa82-4a81-a13c-774e3a8bf61a"
+        },
+        {
+            "x": 624.5,
+            "y": 738.0,
+            "width": 61.0,
+            "height": 28.0,
+            "confidence": 0.7392330169677734,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "953326c7-d0c1-4dcc-a0bf-545f3c4079a0"
+        },
+        {
+            "x": 731.5,
+            "y": 687.0,
+            "width": 27.0,
+            "height": 28.0,
+            "confidence": 0.7387388944625854,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "c42e0ce3-7c14-42a8-a3d7-a6647bb66f06"
+        },
+        {
+            "x": 1049.5,
+            "y": 1174.0,
+            "width": 135.0,
+            "height": 66.0,
+            "confidence": 0.7384815216064453,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "0ca9d689-10f9-473a-bdea-9eed09e74371"
+        },
+        {
+            "x": 610.0,
+            "y": 313.5,
+            "width": 30.0,
+            "height": 31.0,
+            "confidence": 0.73597252368927,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "276a3b82-541f-40ab-8862-1c44b4d34aaa"
+        },
+        {
+            "x": 268.5,
+            "y": 273.5,
+            "width": 85.0,
+            "height": 37.0,
+            "confidence": 0.7357121706008911,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "68f002bf-be9a-4c4d-8795-57e68cb28905"
+        },
+        {
+            "x": 929.0,
+            "y": 717.5,
+            "width": 70.0,
+            "height": 67.0,
+            "confidence": 0.7342284917831421,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "b3548edc-5670-4807-b095-6374068a4668"
+        },
+        {
+            "x": 392.5,
+            "y": 603.0,
+            "width": 23.0,
+            "height": 24.0,
+            "confidence": 0.7332292199134827,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "0ada3ba4-da92-42db-956e-f44776d75bd5"
+        },
+        {
+            "x": 956.0,
+            "y": 161.5,
+            "width": 140.0,
+            "height": 39.0,
+            "confidence": 0.7283869981765747,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "bb8e3f37-3f2d-4f92-914f-371bb03b37e5"
+        },
+        {
+            "x": 1047.5,
+            "y": 1179.5,
+            "width": 129.0,
+            "height": 69.0,
+            "confidence": 0.7268332242965698,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "b2db8c8c-5308-47d3-a22a-f5957f8a13f5"
+        },
+        {
+            "x": 1460.5,
+            "y": 1221.0,
+            "width": 59.0,
+            "height": 34.0,
+            "confidence": 0.7265068888664246,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "8c330f19-542a-4e1c-a1c1-b220083e078b"
+        },
+        {
+            "x": 1062.0,
+            "y": 499.5,
+            "width": 24.0,
+            "height": 127.0,
+            "confidence": 0.7251057624816895,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "0dc09e6f-8bb8-4231-9097-7df6d49b32b0"
+        },
+        {
+            "x": 1162.5,
+            "y": 1123.5,
+            "width": 81.0,
+            "height": 41.0,
+            "confidence": 0.7231080532073975,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "1124fcfe-34cf-43ea-913e-74bd7c4fa1c9"
+        },
+        {
+            "x": 661.0,
+            "y": 1101.5,
+            "width": 58.0,
+            "height": 55.0,
+            "confidence": 0.7226709127426147,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "5a325b3e-d20f-4c7a-b151-61fb11d4e454"
+        },
+        {
+            "x": 546.0,
+            "y": 1162.5,
+            "width": 64.0,
+            "height": 27.0,
+            "confidence": 0.7211793661117554,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "d4a8879e-e16f-4499-bc54-de0a71245c98"
+        },
+        {
+            "x": 1116.0,
+            "y": 518.5,
+            "width": 20.0,
+            "height": 113.0,
+            "confidence": 0.7191420793533325,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "0ecbe6b2-7a52-4ef7-9020-5467f125c982"
+        },
+        {
+            "x": 939.0,
+            "y": 1131.0,
+            "width": 60.0,
+            "height": 56.0,
+            "confidence": 0.7140722274780273,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "db08602d-0d6e-451b-bee7-065eeb9d805a"
+        },
+        {
+            "x": 729.5,
+            "y": 688.5,
+            "width": 25.0,
+            "height": 27.0,
+            "confidence": 0.71318519115448,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "e001a18a-4eb0-47fd-9566-7a092b2c0eba"
+        },
+        {
+            "x": 1031.5,
+            "y": 855.0,
+            "width": 23.0,
+            "height": 56.0,
+            "confidence": 0.7119371891021729,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "01f1072e-79aa-44b1-9ded-e0466f088ef5"
+        },
+        {
+            "x": 1385.0,
+            "y": 948.0,
+            "width": 114.0,
+            "height": 92.0,
+            "confidence": 0.7106184959411621,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "fda4b692-afba-4efa-81cb-6c5f1b433572"
+        },
+        {
+            "x": 467.5,
+            "y": 607.0,
+            "width": 71.0,
+            "height": 56.0,
+            "confidence": 0.7093920111656189,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "5039e1dc-ef8c-4572-a9ab-01b6e803db40"
+        },
+        {
+            "x": 878.5,
+            "y": 270.0,
+            "width": 67.0,
+            "height": 42.0,
+            "confidence": 0.7091758847236633,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "0313ffd4-eb9f-49a4-880d-993f1a7e4fa8"
+        },
+        {
+            "x": 622.5,
+            "y": 741.0,
+            "width": 61.0,
+            "height": 28.0,
+            "confidence": 0.7084987759590149,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "d00fda32-a3de-4c20-a27a-302649a500fa"
+        },
+        {
+            "x": 508.0,
+            "y": 1110.0,
+            "width": 24.0,
+            "height": 28.0,
+            "confidence": 0.7066730260848999,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "42043627-12c9-464f-b8b7-c6cbcaac2ce1"
+        },
+        {
+            "x": 298.0,
+            "y": 1242.0,
+            "width": 40.0,
+            "height": 50.0,
+            "confidence": 0.7054600715637207,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "9687ca85-b353-4a51-af77-d06eb53d175e"
+        },
+        {
+            "x": 942.0,
+            "y": 1132.5,
+            "width": 62.0,
+            "height": 53.0,
+            "confidence": 0.7021182775497437,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "11ba96a7-fb39-4a6f-b571-6abcd745ffc5"
+        },
+        {
+            "x": 856.0,
+            "y": 1142.5,
+            "width": 50.0,
+            "height": 37.0,
+            "confidence": 0.6989020705223083,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "b471129e-e48f-4bbb-9c09-cc95ff533134"
+        },
+        {
+            "x": 758.0,
+            "y": 486.0,
+            "width": 26.0,
+            "height": 118.0,
+            "confidence": 0.6902245283126831,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "82231168-e62f-4bee-8d7d-f2614b3ee125"
+        },
+        {
+            "x": 310.0,
+            "y": 317.5,
+            "width": 22.0,
+            "height": 29.0,
+            "confidence": 0.689093291759491,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "1e3c8c9f-5227-4b25-b3cb-ee06c3b8041c"
+        },
+        {
+            "x": 1097.5,
+            "y": 953.0,
+            "width": 43.0,
+            "height": 86.0,
+            "confidence": 0.6888470649719238,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "e184067a-836e-44ec-b9ad-dd1af9a3aa3e"
+        },
+        {
+            "x": 699.5,
+            "y": 471.5,
+            "width": 29.0,
+            "height": 15.0,
+            "confidence": 0.6876492500305176,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "15aa1a97-c3a1-478f-9cd2-d7fabb19fa95"
+        },
+        {
+            "x": 608.0,
+            "y": 549.5,
+            "width": 28.0,
+            "height": 21.0,
+            "confidence": 0.6874628067016602,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "8935ed5d-df93-4bef-ae40-a15c25c3f949"
+        },
+        {
+            "x": 259.0,
+            "y": 455.0,
+            "width": 22.0,
+            "height": 50.0,
+            "confidence": 0.6829115152359009,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "78b83a51-2501-4817-a49b-2b6f1a1a3c01"
+        },
+        {
+            "x": 581.5,
+            "y": 270.5,
+            "width": 81.0,
+            "height": 39.0,
+            "confidence": 0.6822460889816284,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "3a895fab-f999-4610-b697-e57aae85947c"
+        },
+        {
+            "x": 297.0,
+            "y": 1243.0,
+            "width": 40.0,
+            "height": 50.0,
+            "confidence": 0.6788194179534912,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "97e821a1-c9de-4619-b838-89998b30427d"
+        },
+        {
+            "x": 244.0,
+            "y": 343.0,
+            "width": 58.0,
+            "height": 40.0,
+            "confidence": 0.6779422760009766,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "0fdbe515-1d70-43e9-aa58-2d32c7679309"
+        },
+        {
+            "x": 748.5,
+            "y": 1185.5,
+            "width": 113.0,
+            "height": 81.0,
+            "confidence": 0.6766136884689331,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "99189e4f-8177-43b3-896c-4dcefebde56b"
+        },
+        {
+            "x": 863.5,
+            "y": 954.0,
+            "width": 25.0,
+            "height": 28.0,
+            "confidence": 0.6722975373268127,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "c3c53e8b-5f63-4156-a492-53486cecee31"
+        },
+        {
+            "x": 1286.5,
+            "y": 1244.5,
+            "width": 57.0,
+            "height": 41.0,
+            "confidence": 0.6716166734695435,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "435699d8-967b-4305-896b-d21a41b3e72e"
+        },
+        {
+            "x": 312.5,
+            "y": 318.5,
+            "width": 23.0,
+            "height": 27.0,
+            "confidence": 0.6712390780448914,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "23eb32a0-26d9-4b0f-bd6b-4ce053b725d5"
+        },
+        {
+            "x": 509.5,
+            "y": 1252.5,
+            "width": 33.0,
+            "height": 33.0,
+            "confidence": 0.6703231930732727,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "50e1e687-fe23-4dc8-900f-e149a9e26fb9"
+        },
+        {
+            "x": 572.5,
+            "y": 627.5,
+            "width": 33.0,
+            "height": 53.0,
+            "confidence": 0.668702244758606,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "23831df2-9c86-416c-853c-585e85981839"
+        },
+        {
+            "x": 1496.0,
+            "y": 895.0,
+            "width": 24.0,
+            "height": 12.0,
+            "confidence": 0.6686867475509644,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "c05fd991-b9df-412b-82d6-42c0232baf94"
+        },
+        {
+            "x": 573.0,
+            "y": 825.5,
+            "width": 40.0,
+            "height": 43.0,
+            "confidence": 0.6650381684303284,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "47f298a7-24b7-4ae6-8e41-9aad0d2497bc"
+        },
+        {
+            "x": 1571.0,
+            "y": 464.0,
+            "width": 26.0,
+            "height": 14.0,
+            "confidence": 0.6633067727088928,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "da7f8605-989c-4f22-a8cc-482317cf99e6"
+        },
+        {
+            "x": 1454.5,
+            "y": 1220.5,
+            "width": 63.0,
+            "height": 33.0,
+            "confidence": 0.6631075739860535,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "fed47627-d126-42ad-b4f0-76e14575e42e"
+        },
+        {
+            "x": 1288.0,
+            "y": 1213.5,
+            "width": 36.0,
+            "height": 23.0,
+            "confidence": 0.6630953550338745,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "55e35d84-41ce-44b2-83b4-a66c03ca8f7e"
+        },
+        {
+            "x": 699.5,
+            "y": 557.0,
+            "width": 33.0,
+            "height": 20.0,
+            "confidence": 0.6615473031997681,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "159aca0f-b4cd-423f-96a6-3425f5ca470d"
+        },
+        {
+            "x": 1196.5,
+            "y": 306.0,
+            "width": 25.0,
+            "height": 22.0,
+            "confidence": 0.6580651998519897,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "a6fce137-ea22-4d06-9682-7f6822c6ba00"
+        },
+        {
+            "x": 1339.0,
+            "y": 893.0,
+            "width": 44.0,
+            "height": 68.0,
+            "confidence": 0.65573650598526,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "4062fce4-3104-48fb-8ef1-5d0a5d0f9f02"
+        },
+        {
+            "x": 1496.0,
+            "y": 895.5,
+            "width": 28.0,
+            "height": 11.0,
+            "confidence": 0.6548445224761963,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "36ced6bb-a3bb-4622-b2e2-53610436405e"
+        },
+        {
+            "x": 505.5,
+            "y": 1109.5,
+            "width": 29.0,
+            "height": 27.0,
+            "confidence": 0.6535437107086182,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "e5e1d698-b414-4f4a-b1da-e1afcda6ee29"
+        },
+        {
+            "x": 1604.5,
+            "y": 1038.5,
+            "width": 35.0,
+            "height": 65.0,
+            "confidence": 0.6510053277015686,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "8b593e01-4f2a-4bca-8db7-d2e613899264"
+        },
+        {
+            "x": 697.5,
+            "y": 495.0,
+            "width": 27.0,
+            "height": 14.0,
+            "confidence": 0.6489763259887695,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "87a7e9f3-4593-43a9-9d1d-19c748b343e0"
+        },
+        {
+            "x": 864.0,
+            "y": 682.5,
+            "width": 24.0,
+            "height": 27.0,
+            "confidence": 0.6486058235168457,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "ef622022-c8b7-4ca9-9bbc-802e91f28cd0"
+        },
+        {
+            "x": 518.0,
+            "y": 839.5,
+            "width": 30.0,
+            "height": 59.0,
+            "confidence": 0.6484609842300415,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "315fe085-9f4b-4cc4-bf6f-ee27cae32a1e"
+        },
+        {
+            "x": 928.0,
+            "y": 892.0,
+            "width": 28.0,
+            "height": 26.0,
+            "confidence": 0.6482623815536499,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "96d57e85-8597-4531-ab20-3bfabada925d"
+        },
+        {
+            "x": 1185.5,
+            "y": 456.0,
+            "width": 27.0,
+            "height": 16.0,
+            "confidence": 0.6475579738616943,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "aef0d4ed-f7c5-4c0c-9323-c84f7f74d683"
+        },
+        {
+            "x": 841.0,
+            "y": 477.0,
+            "width": 30.0,
+            "height": 92.0,
+            "confidence": 0.6464571952819824,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "8ca995db-27c2-4dde-998b-f55961f8e406"
+        },
+        {
+            "x": 560.5,
+            "y": 550.5,
+            "width": 29.0,
+            "height": 19.0,
+            "confidence": 0.6436658501625061,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "da1bb4f0-7007-4240-84d0-0bfe476279ab"
+        },
+        {
+            "x": 699.0,
+            "y": 557.0,
+            "width": 32.0,
+            "height": 20.0,
+            "confidence": 0.6423660516738892,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "9a582acb-b152-432b-84f2-b6c781e28152"
+        },
+        {
+            "x": 1186.0,
+            "y": 498.0,
+            "width": 30.0,
+            "height": 16.0,
+            "confidence": 0.6395769119262695,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "e1a6d6d8-2422-42bf-9d2e-17ddf78122ea"
+        },
+        {
+            "x": 270.0,
+            "y": 274.5,
+            "width": 82.0,
+            "height": 41.0,
+            "confidence": 0.6385807991027832,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "67670ef7-62b2-457a-a33a-85f3c60cbc7f"
+        },
+        {
+            "x": 741.5,
+            "y": 951.5,
+            "width": 45.0,
+            "height": 45.0,
+            "confidence": 0.6384661197662354,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "8c7030eb-14b4-4d64-bc51-fd73c30a2a76"
+        },
+        {
+            "x": 964.0,
+            "y": 635.5,
+            "width": 12.0,
+            "height": 35.0,
+            "confidence": 0.6378054618835449,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "b5d36761-27f9-4e4a-870a-d00be21d6ef2"
+        },
+        {
+            "x": 888.5,
+            "y": 474.5,
+            "width": 31.0,
+            "height": 13.0,
+            "confidence": 0.6337093114852905,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "2c464575-b355-4910-a6fe-9fcff7e80765"
+        },
+        {
+            "x": 603.5,
+            "y": 471.0,
+            "width": 29.0,
+            "height": 10.0,
+            "confidence": 0.6336345672607422,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "598496bf-fe25-4e47-9c7a-23e6fc0cd1af"
+        },
+        {
+            "x": 1605.0,
+            "y": 1038.5,
+            "width": 40.0,
+            "height": 59.0,
+            "confidence": 0.6329158544540405,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "6db2c7e0-0969-4abf-a349-75f86e8902db"
+        },
+        {
+            "x": 509.5,
+            "y": 1252.5,
+            "width": 33.0,
+            "height": 33.0,
+            "confidence": 0.6318498849868774,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "f5168a60-921f-4665-b29d-9eb2b524aad0"
+        },
+        {
+            "x": 403.0,
+            "y": 557.0,
+            "width": 40.0,
+            "height": 18.0,
+            "confidence": 0.6297022104263306,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "9c394507-0373-4229-8688-5fd8a0ac95f7"
+        },
+        {
+            "x": 1196.0,
+            "y": 306.5,
+            "width": 26.0,
+            "height": 23.0,
+            "confidence": 0.6284176707267761,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "dd9e53cb-1982-40c8-846e-01c85c1891dd"
+        },
+        {
+            "x": 1570.5,
+            "y": 464.0,
+            "width": 27.0,
+            "height": 14.0,
+            "confidence": 0.6278645396232605,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "5e245eec-86fd-4042-874c-b2a920b987c1"
+        },
+        {
+            "x": 1478.5,
+            "y": 310.0,
+            "width": 33.0,
+            "height": 24.0,
+            "confidence": 0.6275948286056519,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "d09476de-175f-43bd-9d15-b32fd89bb465"
+        },
+        {
+            "x": 926.0,
+            "y": 891.5,
+            "width": 26.0,
+            "height": 25.0,
+            "confidence": 0.6259021162986755,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "a135d478-1d99-4241-8743-fa95fd4b2f56"
+        },
+        {
+            "x": 1477.0,
+            "y": 310.0,
+            "width": 26.0,
+            "height": 26.0,
+            "confidence": 0.6244078874588013,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "638d4d9a-5d60-44a1-b6ae-2bfabf39b606"
+        },
+        {
+            "x": 652.0,
+            "y": 551.0,
+            "width": 34.0,
+            "height": 20.0,
+            "confidence": 0.6226918697357178,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "86abab0c-a3d6-4d81-b29c-6727fae24c02"
+        },
+        {
+            "x": 620.0,
+            "y": 838.0,
+            "width": 26.0,
+            "height": 56.0,
+            "confidence": 0.618118166923523,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "f188fe63-4483-4247-aacb-14910da9da69"
+        },
+        {
+            "x": 993.5,
+            "y": 473.0,
+            "width": 29.0,
+            "height": 16.0,
+            "confidence": 0.6152810454368591,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "9e2844a0-f82c-448a-afda-1c346279b24d"
+        },
+        {
+            "x": 1282.0,
+            "y": 1245.0,
+            "width": 48.0,
+            "height": 44.0,
+            "confidence": 0.6152045130729675,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "d7e97ea6-2543-4f4f-91cc-4fd9b44e99a8"
+        },
+        {
+            "x": 699.0,
+            "y": 472.0,
+            "width": 30.0,
+            "height": 14.0,
+            "confidence": 0.6117165684700012,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "cee33eeb-f22b-47ba-a340-fc570948260c"
+        },
+        {
+            "x": 563.5,
+            "y": 549.5,
+            "width": 27.0,
+            "height": 21.0,
+            "confidence": 0.6114932298660278,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "e36b429f-82ce-454b-928e-f92509c4cbfe"
+        },
+        {
+            "x": 955.0,
+            "y": 774.0,
+            "width": 20.0,
+            "height": 20.0,
+            "confidence": 0.6106323599815369,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "dc9280e5-20af-4857-8853-4fcc7ae9ebcf"
+        },
+        {
+            "x": 1312.0,
+            "y": 686.5,
+            "width": 16.0,
+            "height": 29.0,
+            "confidence": 0.6103545427322388,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "6a3f35ee-a97e-4361-9237-bddebd07bb64"
+        },
+        {
+            "x": 744.5,
+            "y": 953.0,
+            "width": 45.0,
+            "height": 46.0,
+            "confidence": 0.6082701683044434,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "607246f3-468c-40a6-a0e4-faa22b374ba5"
+        },
+        {
+            "x": 1092.0,
+            "y": 702.0,
+            "width": 26.0,
+            "height": 14.0,
+            "confidence": 0.6063641309738159,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "062712e4-1037-4699-9c6b-a200ea9ba7cd"
+        },
+        {
+            "x": 1183.5,
+            "y": 1211.0,
+            "width": 35.0,
+            "height": 26.0,
+            "confidence": 0.6055518388748169,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "625885fb-4c57-4fc7-bbde-1b7ccc5fdd53"
+        },
+        {
+            "x": 1455.0,
+            "y": 868.0,
+            "width": 28.0,
+            "height": 18.0,
+            "confidence": 0.6050388813018799,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "52d1d343-2d79-405e-8bec-067d91f2c143"
+        },
+        {
+            "x": 902.5,
+            "y": 306.5,
+            "width": 27.0,
+            "height": 31.0,
+            "confidence": 0.6035083532333374,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "f9e6963d-92cb-454a-9048-8dc729ca7e5b"
+        },
+        {
+            "x": 1290.5,
+            "y": 458.0,
+            "width": 25.0,
+            "height": 12.0,
+            "confidence": 0.6017727851867676,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "990f745f-dbfd-457a-9bb3-80fb92e53a9a"
+        },
+        {
+            "x": 1156.0,
+            "y": 1048.0,
+            "width": 72.0,
+            "height": 94.0,
+            "confidence": 0.6017464399337769,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "4e8a125d-b80a-4c48-9bab-ecbf614b9688"
+        },
+        {
+            "x": 1098.0,
+            "y": 955.0,
+            "width": 44.0,
+            "height": 90.0,
+            "confidence": 0.6012070178985596,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "e431c1d0-e257-4379-8763-ac7eaf7cf063"
+        },
+        {
+            "x": 1554.0,
+            "y": 925.0,
+            "width": 16.0,
+            "height": 34.0,
+            "confidence": 0.5988595485687256,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "b7b505b9-b020-46b3-9403-0e3e298a72a7"
+        },
+        {
+            "x": 1099.5,
+            "y": 956.0,
+            "width": 45.0,
+            "height": 86.0,
+            "confidence": 0.5985854268074036,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "9785e0dd-6d70-434c-944d-5c6aa70f98a0"
+        },
+        {
+            "x": 562.5,
+            "y": 549.0,
+            "width": 29.0,
+            "height": 20.0,
+            "confidence": 0.5968598127365112,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "d11376ce-7c55-4cc7-b3ab-e72d2da22a25"
+        },
+        {
+            "x": 744.0,
+            "y": 954.5,
+            "width": 46.0,
+            "height": 51.0,
+            "confidence": 0.5961498022079468,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "9e0438d7-2ae8-4cd8-8434-00c267bb45b3"
+        },
+        {
+            "x": 649.5,
+            "y": 549.0,
+            "width": 25.0,
+            "height": 20.0,
+            "confidence": 0.5952380299568176,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "2158dd9b-beee-4099-ab3e-5f59714207fb"
+        },
+        {
+            "x": 1062.5,
+            "y": 856.0,
+            "width": 31.0,
+            "height": 62.0,
+            "confidence": 0.5946494340896606,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "8e250122-8957-4950-86f2-5e2b73213d7d"
+        },
+        {
+            "x": 542.5,
+            "y": 1194.5,
+            "width": 63.0,
+            "height": 29.0,
+            "confidence": 0.5942568182945251,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "1569d889-8697-425f-85d3-03c02cf0fac0"
+        },
+        {
+            "x": 1063.0,
+            "y": 854.5,
+            "width": 24.0,
+            "height": 59.0,
+            "confidence": 0.5941729545593262,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "c1fd2902-38cc-4666-aa67-1e3e3b4b97b5"
+        },
+        {
+            "x": 1472.0,
+            "y": 456.0,
+            "width": 24.0,
+            "height": 16.0,
+            "confidence": 0.5904749631881714,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "f26e6d1b-065a-4f36-98b2-3fb99d11ee5b"
+        },
+        {
+            "x": 378.0,
+            "y": 1198.5,
+            "width": 120.0,
+            "height": 31.0,
+            "confidence": 0.5902870893478394,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "27e7b8e5-d87a-4c7c-91a2-6b66801b5b0c"
+        },
+        {
+            "x": 1595.5,
+            "y": 1165.0,
+            "width": 123.0,
+            "height": 72.0,
+            "confidence": 0.5883944034576416,
+            "class": "Transistor",
+            "class_id": 20,
+            "detection_id": "55c7baee-2664-426f-91bb-dadb4a9cf05f"
+        },
+        {
+            "x": 744.5,
+            "y": 953.0,
+            "width": 39.0,
+            "height": 46.0,
+            "confidence": 0.5883854627609253,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "e556e3e0-5036-4a30-a8c4-0c54a39e5f80"
+        },
+        {
+            "x": 885.5,
+            "y": 497.5,
+            "width": 27.0,
+            "height": 13.0,
+            "confidence": 0.5883210897445679,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "1dc043f4-ffe1-4289-8077-b1894de05df4"
+        },
+        {
+            "x": 671.5,
+            "y": 764.0,
+            "width": 21.0,
+            "height": 24.0,
+            "confidence": 0.5882494449615479,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "f4a3a2e9-a342-471b-ad18-593159cbbd84"
+        },
+        {
+            "x": 1603.0,
+            "y": 1037.5,
+            "width": 36.0,
+            "height": 57.0,
+            "confidence": 0.580579400062561,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "0bf0deed-a161-4fd0-a900-8c3a6542fde0"
+        },
+        {
+            "x": 1289.0,
+            "y": 519.0,
+            "width": 28.0,
+            "height": 12.0,
+            "confidence": 0.5799764394760132,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "6fe15685-0511-4838-8ee4-5ea346cd8753"
+        },
+        {
+            "x": 1141.5,
+            "y": 798.0,
+            "width": 31.0,
+            "height": 14.0,
+            "confidence": 0.5791518092155457,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "01c09f78-512f-4598-9752-e2cf94614d09"
+        },
+        {
+            "x": 943.5,
+            "y": 1133.0,
+            "width": 65.0,
+            "height": 52.0,
+            "confidence": 0.5781184434890747,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "2fb0a5d0-132d-4fed-b9d1-bedd0017e887"
+        },
+        {
+            "x": 400.5,
+            "y": 485.5,
+            "width": 29.0,
+            "height": 19.0,
+            "confidence": 0.5781173706054688,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "b9c491ca-efbe-4ab2-94ff-6d877500b228"
+        },
+        {
+            "x": 415.5,
+            "y": 689.5,
+            "width": 29.0,
+            "height": 33.0,
+            "confidence": 0.5758441686630249,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "5a8b1188-de54-493c-b8fe-b3da3ef6add7"
+        },
+        {
+            "x": 1141.0,
+            "y": 797.5,
+            "width": 32.0,
+            "height": 13.0,
+            "confidence": 0.575452446937561,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "c1f9b8ed-6a08-408a-bebb-d792fa1afe9e"
+        },
+        {
+            "x": 1093.0,
+            "y": 725.5,
+            "width": 32.0,
+            "height": 15.0,
+            "confidence": 0.572654664516449,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "0787b487-0c15-4089-bc39-6a5493c5584c"
+        },
+        {
+            "x": 1474.5,
+            "y": 483.0,
+            "width": 27.0,
+            "height": 16.0,
+            "confidence": 0.5691262483596802,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "a59f7039-68e3-4078-8fee-f56f0ddcd7f8"
+        },
+        {
+            "x": 586.0,
+            "y": 274.0,
+            "width": 66.0,
+            "height": 40.0,
+            "confidence": 0.5690312385559082,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "a7460323-7e8a-4242-b285-8cc43aa34024"
+        },
+        {
+            "x": 995.5,
+            "y": 535.0,
+            "width": 25.0,
+            "height": 18.0,
+            "confidence": 0.5662978887557983,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "f5f1c42e-f3cd-43ef-acdc-8d69bfa69552"
+        },
+        {
+            "x": 415.5,
+            "y": 689.5,
+            "width": 29.0,
+            "height": 39.0,
+            "confidence": 0.5644791126251221,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "dc16f837-13e3-4c18-861b-0cb19859b725"
+        },
+        {
+            "x": 318.5,
+            "y": 517.0,
+            "width": 33.0,
+            "height": 16.0,
+            "confidence": 0.5596755743026733,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "a1008ea1-059e-4463-8b35-a4ba015e5f81"
+        },
+        {
+            "x": 1186.0,
+            "y": 479.0,
+            "width": 28.0,
+            "height": 14.0,
+            "confidence": 0.5584672093391418,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "f44a675e-1c0e-428c-a46f-0b1b928f7081"
+        },
+        {
+            "x": 312.0,
+            "y": 478.0,
+            "width": 32.0,
+            "height": 20.0,
+            "confidence": 0.5582247376441956,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "ced40203-989b-42cc-aa41-3a9b70270212"
+        },
+        {
+            "x": 317.5,
+            "y": 517.5,
+            "width": 35.0,
+            "height": 15.0,
+            "confidence": 0.5577436685562134,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "d88ac520-b036-4153-a272-574c5024c2f1"
+        },
+        {
+            "x": 1453.0,
+            "y": 867.0,
+            "width": 26.0,
+            "height": 18.0,
+            "confidence": 0.5545974969863892,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "f452b4c8-239c-4e2e-9b09-3429ccdc6629"
+        },
+        {
+            "x": 1242.0,
+            "y": 906.5,
+            "width": 88.0,
+            "height": 81.0,
+            "confidence": 0.5500555038452148,
+            "class": "Electrolytic Capacitor",
+            "class_id": 7,
+            "detection_id": "e1efc6cd-f7df-4284-ba0b-9ef0de7fcdc2"
+        },
+        {
+            "x": 1245.5,
+            "y": 908.5,
+            "width": 83.0,
+            "height": 79.0,
+            "confidence": 0.5466136932373047,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "56a06e52-6e60-4923-8aed-5d8c8c18092d"
+        },
+        {
+            "x": 1473.5,
+            "y": 457.0,
+            "width": 23.0,
+            "height": 16.0,
+            "confidence": 0.5458158254623413,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "f864276a-dfaf-4b50-ac70-a2d1d42f749a"
+        },
+        {
+            "x": 1289.5,
+            "y": 479.5,
+            "width": 29.0,
+            "height": 13.0,
+            "confidence": 0.5426797866821289,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "3a3915e7-578f-40a9-a7f4-625ae006afb4"
+        },
+        {
+            "x": 586.0,
+            "y": 902.5,
+            "width": 160.0,
+            "height": 47.0,
+            "confidence": 0.5385292768478394,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "633fd826-6b1c-45af-9bf8-8dfff6baf7b5"
+        },
+        {
+            "x": 687.5,
+            "y": 1289.5,
+            "width": 53.0,
+            "height": 57.0,
+            "confidence": 0.5368963479995728,
+            "class": "Test Point",
+            "class_id": 19,
+            "detection_id": "c45f233a-4de9-4849-90a7-7a9a42f559b8"
+        },
+        {
+            "x": 605.0,
+            "y": 473.5,
+            "width": 26.0,
+            "height": 15.0,
+            "confidence": 0.5354468822479248,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "3096e971-47fe-4959-a9dc-30aedea0b745"
+        },
+        {
+            "x": 1180.5,
+            "y": 707.0,
+            "width": 23.0,
+            "height": 82.0,
+            "confidence": 0.5346406102180481,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "db07a669-187f-418f-b8d7-8afce243ad50"
+        },
+        {
+            "x": 996.0,
+            "y": 1094.0,
+            "width": 22.0,
+            "height": 18.0,
+            "confidence": 0.5344836711883545,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "c65f2efb-ae48-48e0-bb1a-822e12086702"
+        },
+        {
+            "x": 972.5,
+            "y": 1128.0,
+            "width": 17.0,
+            "height": 28.0,
+            "confidence": 0.5339266061782837,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "46404b92-656e-4317-adb2-85640b90fc20"
+        },
+        {
+            "x": 864.5,
+            "y": 955.0,
+            "width": 25.0,
+            "height": 28.0,
+            "confidence": 0.5334346294403076,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "4573346d-879c-4cf0-a179-5b73642ddabd"
+        },
+        {
+            "x": 1570.5,
+            "y": 531.5,
+            "width": 27.0,
+            "height": 25.0,
+            "confidence": 0.5312485098838806,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "c7a72996-a811-48e4-9372-6a3215ee2043"
+        },
+        {
+            "x": 569.5,
+            "y": 790.5,
+            "width": 31.0,
+            "height": 21.0,
+            "confidence": 0.5305502414703369,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "7aeed7b3-9079-4e92-8450-b0ce24fb2232"
+        },
+        {
+            "x": 1430.5,
+            "y": 505.5,
+            "width": 33.0,
+            "height": 111.0,
+            "confidence": 0.5293240547180176,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "4921ebc3-54d0-414c-b0fc-991a4c488723"
+        },
+        {
+            "x": 1292.0,
+            "y": 539.0,
+            "width": 34.0,
+            "height": 16.0,
+            "confidence": 0.5285599231719971,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "1e9068d4-0406-4827-a542-a254a0b54141"
+        },
+        {
+            "x": 1597.5,
+            "y": 1169.5,
+            "width": 123.0,
+            "height": 81.0,
+            "confidence": 0.5281685590744019,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "6e311fcd-b994-48d2-8dae-16272529c5c6"
+        },
+        {
+            "x": 1482.5,
+            "y": 1004.5,
+            "width": 19.0,
+            "height": 21.0,
+            "confidence": 0.527762770652771,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "eecc3978-dfb1-4d3f-8fdc-8aea870269b0"
+        },
+        {
+            "x": 658.0,
+            "y": 1172.5,
+            "width": 38.0,
+            "height": 69.0,
+            "confidence": 0.5269749164581299,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "e88047b7-4882-4f44-bd78-90adc21355de"
+        },
+        {
+            "x": 453.0,
+            "y": 691.0,
+            "width": 26.0,
+            "height": 34.0,
+            "confidence": 0.5260648727416992,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "6a8b7688-3fdb-4606-8c41-6361f84c2c66"
+        },
+        {
+            "x": 569.5,
+            "y": 791.0,
+            "width": 27.0,
+            "height": 18.0,
+            "confidence": 0.5255877375602722,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "1fc1a60e-8c35-4640-9c22-ad12d2bea119"
+        },
+        {
+            "x": 927.5,
+            "y": 894.0,
+            "width": 25.0,
+            "height": 32.0,
+            "confidence": 0.5247459411621094,
+            "class": "IC",
+            "class_id": 9,
+            "detection_id": "8435ea81-3814-4f30-9e6f-fe2937743b41"
+        },
+        {
+            "x": 996.5,
+            "y": 1094.0,
+            "width": 23.0,
+            "height": 16.0,
+            "confidence": 0.5246814489364624,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "9e851d3b-e15d-436f-97d2-e21c792b1041"
+        },
+        {
+            "x": 953.5,
+            "y": 774.5,
+            "width": 19.0,
+            "height": 17.0,
+            "confidence": 0.5240959525108337,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "10f4a321-8b68-4126-9c7b-dffc3067cacf"
+        },
+        {
+            "x": 1291.0,
+            "y": 539.0,
+            "width": 34.0,
+            "height": 14.0,
+            "confidence": 0.5232179164886475,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "4c0e954b-4868-4b2f-8d2b-8ab4fc67b85a"
+        },
+        {
+            "x": 562.0,
+            "y": 1060.5,
+            "width": 30.0,
+            "height": 19.0,
+            "confidence": 0.5216338038444519,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "9a2ef14e-9741-47d9-9de7-f6195fea8d9a"
+        },
+        {
+            "x": 460.0,
+            "y": 998.5,
+            "width": 24.0,
+            "height": 23.0,
+            "confidence": 0.5197120904922485,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "85e55b47-7640-42b2-a042-88f104669606"
+        },
+        {
+            "x": 1038.0,
+            "y": 939.0,
+            "width": 62.0,
+            "height": 28.0,
+            "confidence": 0.5196866989135742,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "0a54e653-32fd-4296-bf9b-456695867db0"
+        },
+        {
+            "x": 1478.5,
+            "y": 1007.5,
+            "width": 23.0,
+            "height": 21.0,
+            "confidence": 0.5184001922607422,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "bad0400a-3bb4-488d-a281-ae67b9dc5ad8"
+        },
+        {
+            "x": 1300.5,
+            "y": 886.0,
+            "width": 17.0,
+            "height": 34.0,
+            "confidence": 0.5171294212341309,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "803671c3-9498-47e8-b391-5b74c9c07018"
+        },
+        {
+            "x": 559.5,
+            "y": 1059.0,
+            "width": 31.0,
+            "height": 22.0,
+            "confidence": 0.5145586729049683,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "7b77dca1-09ec-4110-ba30-e774458edcb0"
+        },
+        {
+            "x": 1086.5,
+            "y": 1026.5,
+            "width": 23.0,
+            "height": 21.0,
+            "confidence": 0.5132220983505249,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "750ce3b9-8115-4d2c-bf2c-4e1fc42781b2"
+        },
+        {
+            "x": 657.5,
+            "y": 1099.5,
+            "width": 49.0,
+            "height": 53.0,
+            "confidence": 0.5105137825012207,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "c1c21eb3-4126-4227-8751-c7b836e47c6b"
+        },
+        {
+            "x": 442.0,
+            "y": 728.0,
+            "width": 20.0,
+            "height": 30.0,
+            "confidence": 0.509493887424469,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "9515fff4-82d7-4276-9ebf-b5a116887b74"
+        },
+        {
+            "x": 402.0,
+            "y": 485.0,
+            "width": 28.0,
+            "height": 18.0,
+            "confidence": 0.5090087652206421,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "93dec8b2-d6e4-42d8-8a3b-b23ef83c2d1f"
+        },
+        {
+            "x": 1093.0,
+            "y": 678.5,
+            "width": 30.0,
+            "height": 15.0,
+            "confidence": 0.5088663697242737,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "5e9d2cfc-be2f-496e-9eba-3d5732527acc"
+        },
+        {
+            "x": 314.0,
+            "y": 497.0,
+            "width": 30.0,
+            "height": 20.0,
+            "confidence": 0.5083277225494385,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "d4fc39ae-a1b3-446a-89a4-e06f469210cc"
+        },
+        {
+            "x": 1518.5,
+            "y": 1006.5,
+            "width": 29.0,
+            "height": 21.0,
+            "confidence": 0.5081693530082703,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "f89c0014-5711-421b-b9cf-b7294fea4976"
+        },
+        {
+            "x": 541.5,
+            "y": 614.5,
+            "width": 17.0,
+            "height": 31.0,
+            "confidence": 0.5057389140129089,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "b578db34-8976-4f13-a334-94b8155d3f61"
+        },
+        {
+            "x": 1154.0,
+            "y": 951.0,
+            "width": 16.0,
+            "height": 20.0,
+            "confidence": 0.5029274225234985,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "bb0a9bf7-e80c-42d1-9ebf-e953c5449aaf"
+        },
+        {
+            "x": 1389.0,
+            "y": 817.5,
+            "width": 92.0,
+            "height": 103.0,
+            "confidence": 0.5028715133666992,
+            "class": "Connector",
+            "class_id": 4,
+            "detection_id": "55c65658-cb9d-44ae-8ed7-1c006705ceed"
+        },
+        {
+            "x": 735.5,
+            "y": 1056.5,
+            "width": 67.0,
+            "height": 25.0,
+            "confidence": 0.501593828201294,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "6cabcfc3-65bf-41f4-9fa7-724ea79f1006"
+        },
+        {
+            "x": 605.0,
+            "y": 500.5,
+            "width": 28.0,
+            "height": 27.0,
+            "confidence": 0.5005139112472534,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "d3a4641c-5ca3-41d7-8001-0380f26ffc40"
+        },
+        {
+            "x": 1452.5,
+            "y": 1221.0,
+            "width": 55.0,
+            "height": 32.0,
+            "confidence": 0.5002343654632568,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "5133f2a8-b2fb-40a2-b22c-1bd42d643155"
+        },
+        {
+            "x": 1556.0,
+            "y": 922.5,
+            "width": 16.0,
+            "height": 35.0,
+            "confidence": 0.49658337235450745,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "eff56ff8-a4cb-4c5d-a824-e0d54691a489"
+        },
+        {
+            "x": 275.0,
+            "y": 275.5,
+            "width": 76.0,
+            "height": 37.0,
+            "confidence": 0.49546512961387634,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "8de5002c-4af4-4965-a957-68dfdb9337a8"
+        },
+        {
+            "x": 413.0,
+            "y": 690.0,
+            "width": 26.0,
+            "height": 34.0,
+            "confidence": 0.49541765451431274,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "67b57a7e-4525-4f4e-bbdf-92de294d7f07"
+        },
+        {
+            "x": 1517.5,
+            "y": 1006.5,
+            "width": 29.0,
+            "height": 17.0,
+            "confidence": 0.49511682987213135,
+            "class": "Resistor Network",
+            "class_id": 16,
+            "detection_id": "418e3d89-897d-4818-b9c5-8221acd34aa3"
+        },
+        {
+            "x": 566.0,
+            "y": 1253.0,
+            "width": 34.0,
+            "height": 28.0,
+            "confidence": 0.4947057366371155,
+            "class": "Resistor",
+            "class_id": 17,
+            "detection_id": "9e2f45ea-d34d-441b-b702-01f001b8aacd"
+        },
+        {
+            "x": 1474.0,
+            "y": 505.5,
+            "width": 22.0,
+            "height": 19.0,
+            "confidence": 0.49470382928848267,
+            "class": "Capacitor",
+            "class_id": 2,
+            "detection_id": "1d68cad4-7bf8-49bf-a9a3-4809fecf20d6"
+        },
+        {
+            "x": 989.5,
+            "y": 476.5,
+            "width": 31.0,
+            "height": 15.0,
+            "confidence": 0.4928947985172272,
+            "class": "Capacitor Jumper",
+            "class_id": 1,
+            "detection_id": "9e0cee25-0a56-46cf-be34-186a551b7ffc"
+        }
+    ]
+}
