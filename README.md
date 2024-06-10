@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference. -->
 # PCB Component Detection Project
 
 ## Overview
-The PCB Component Detection project is an application designed to identify and annotate various components on printed circuit board (PCB) images. Users can upload images of PCBs, and the application will process these images to detect components, returning an annotated image with the detected components and a tabulated list of findings.
+The PCB Component Detection project is an application designed to identify and annotate various components on printed circuit board (PCB) images. Users can upload images of PCBs, and the application will process these images to detect components, returning an annotated image with the detected components and a tabulated list of findings. [Website link](https://pcb-component-detection.firebaseapp.com/)
 
 ## Features
 - **Image Upload:** Users can upload PCB images from their device.
@@ -104,7 +104,7 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or suggestions, please feel free to open an issue or contact me at [your-email@example.com](mailto:aditya.raj.met21@itbhu.ac.in).
+For any questions or suggestions, please feel free to open an issue or contact me at [aditya.raj.met21@itbhu.ac.in](mailto:aditya.raj.met21@itbhu.ac.in).
 
 ---
 
