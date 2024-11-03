@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'PCB Compenent Detection and Estimantion'),
+      home: const MyHomePage(title: 'PCB Component Detection and Estimation'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -228,50 +228,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         const Text(" %"),
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        const Text("Filter Components: "),
-                        const SizedBox(
-                          width: 20,
-                        ),
-                        // Center(
-                        //   child: DropdownButtonFormField<String>(
-                        //     items: classes.map((String value) {
-                        //       return DropdownMenuItem<String>(
-                        //         value: value,
-                        //         child: Row(
-                        //           children: <Widget>[
-                        //             Checkbox(
-                        //               value: selectedClasses.contains(value),
-                        //               onChanged: (bool? newValue) {
-                        //                 setState(() {
-                        //                   if (newValue!) {
-                        //                     selectedClasses.add(value);
-                        //                   } else {
-                        //                     selectedClasses.remove(value);
-                        //                   }
-                        //                 });
-                        //               },
-                        //             ),
-                        //             Text(value),
-                        //           ],
-                        //         ),
-                        //       );
-                        //     }).toList(),
-                        //     onChanged: (String? newValue) {
-                        //       // Handle dropdown value change
-                        //     },
-                        //     value: null,
-                        //     isExpanded: true,
-                        //     decoration: InputDecoration(
-                        //       labelText: 'Select classes',
-                        //       border: OutlineInputBorder(),
-                        //     ),
-                        //   ),
-
-                        // ),
                       ],
                     ),
                   ],

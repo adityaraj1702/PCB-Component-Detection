@@ -15,7 +15,7 @@ class RoboflowService {
   Future<Uint8List> inferImage(String imgUrl) async {
     try {
       String url =
-          "https://detect.roboflow.com/printed-circuit-board/3?api_key=IYFfEBPmMELFaVl0bIMn&confidence=40&overlap=30&format=image&labels=on&stroke=2&image=${Uri.encodeComponent(imgUrl)}";
+          "https://detect.roboflow.com/pcb-components-detection-p9j9r/1?api_key=$apiKey&confidence=40&overlap=30&format=image&labels=on&stroke=1&image=${Uri.encodeComponent(imgUrl)}";
       String data = 'data:image/jpeg;base64,';
       var response = await http.post(Uri.parse(url), body: data);
       if (response.statusCode == 200) {
