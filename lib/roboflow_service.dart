@@ -62,16 +62,16 @@ class RoboflowService {
   Future<Map<String, dynamic>> getSettingsFromForm(String imgUrl) async {
     // Replace these values with the actual values from your form fields
     String apiKey = 'IYFfEBPmMELFaVl0bIMn';
-    String model = 'printed-circuit-board';
-    String version = '3';
+    String model = 'pcb-components-detection-p9j9r';
+    String version = '1';
     String url = 'https://detect.roboflow.com/$model/$version?api_key=$apiKey';
     String data =
         'data:image/jpeg;base64,'; // This will be the data sent in the request body
 
     // Optionally, add other parameters based on your form fields
     String classes = ''; // Get the value from the form
-    String confidence = ''; // Get the value from the form
-    String overlap = ''; // Get the value from the form
+    String confidence = '40'; // Get the value from the form
+    String overlap = '30'; // Get the value from the form
     String format = 'json'; // Assuming JSON format by default
 
     // Append optional parameters to the URL
