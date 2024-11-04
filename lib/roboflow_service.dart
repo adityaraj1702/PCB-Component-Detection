@@ -15,7 +15,7 @@ class RoboflowService {
   Future<Uint8List> inferImage(String imgUrl) async {
     try {
       String url =
-          "https://detect.roboflow.com/pcb-components-detection-p9j9r/1?api_key=$apiKey&confidence=40&overlap=30&format=image&labels=on&stroke=1&image=${Uri.encodeComponent(imgUrl)}";
+          "https://detect.roboflow.com/pcb-components-detection-p9j9r/4?api_key=$apiKey&confidence=40&overlap=30&format=image&labels=on&stroke=1&image=${Uri.encodeComponent(imgUrl)}";
       String data = 'data:image/jpeg;base64,';
       var response = await http.post(Uri.parse(url), body: data);
       if (response.statusCode == 200) {
@@ -63,7 +63,7 @@ class RoboflowService {
     // Replace these values with the actual values from your form fields
     String apiKey = 'IYFfEBPmMELFaVl0bIMn';
     String model = 'pcb-components-detection-p9j9r';
-    String version = '1';
+    String version = '4';
     String url = 'https://detect.roboflow.com/$model/$version?api_key=$apiKey';
     String data =
         'data:image/jpeg;base64,'; // This will be the data sent in the request body
